@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    border: 500px;
+    border: 0px;
     background-color: #1f2937;
     
 }
@@ -38,11 +38,13 @@ color: black;
     width: 400px;
     height: 400px;
     float: right;
+
 }
 h1{
     font-weight: bold;
     color:whitesmoke;
     float: left;
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
     display: flex;
@@ -68,8 +70,29 @@ h3{
     float: left;
     color: #f9faf8;
 }
-}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
     
+    font-size: 22px;
+    position:absolute;
+    top: 40%;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+    width: 10%;
+    cursor: pointer;
+    
+    
+
+}
+button:hover {
+    background-color:red ;
+}
+button:active {
+    transform: translateY(2px);
+}
 
 
     
