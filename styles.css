@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    border: 500px;
+    background-color: #1f2937;
+    
+}
+
+.page-logo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+.nav-bar{
+    width: 100%;
+    margin: 0%;
+}
+.nav-bar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+
+}
+.nav-bar a:hover{
+background-color: aqua;
+color: black;
+}
+.first-pic{
+    display: flex;
+    border: 2px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+h1{
+    font-weight: bold;
+    color:whitesmoke;
+    float: left;
+}
+h2{
+    display: flex;
+    border: 10px;
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    float: left;
+    color: #f9faf8;
+    font-size: 48px;
+    
+
+}
+
+h3{
+    display: flex;
+    border: 10px;
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    top: 30%;
+    float: left;
+    color: #f9faf8;
+}
+}
+    
+
+
+    
+
+    
+
