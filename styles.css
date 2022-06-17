@@ -1,9 +1,10 @@
+html{
+    overflow-y: scroll; overflow-x:hidden;
+}
 .container {
     display: flex;
     border: 0px;
     background-color: #1f2937;
-   
-    
 }
 
 .page-logo {
@@ -104,8 +105,32 @@ button:hover {
 button:active {
     transform: translateY(2px);
 }
-
-
+h4{
+    display: flex;
+    justify-content: center;
+}
+.mid-part {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 28px;
+}
+.all-pics {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}     
+img {
+    
+    border: 5px solid rgba(14, 98, 167, 0.924);
+    box-sizing: content-box;
+    margin: 20px;
+    border-radius: 25px;
+    align-content: space-around;
+    
+}
     
 
     
