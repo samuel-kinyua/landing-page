@@ -107,10 +107,57 @@ button:hover{
     color: black;
 }
 .section2 {
-  
-    
+   
+    flex-direction: row;
     background-color:white;
 }
+.section2-text1 {
+    align-items: center;
+    font:  #1f2937;
+    font-weight: 700;
+    font-size: 36px;
+}
+.s2h3 {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.b1container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    
+    background-color: #1f2937;
+    border: 3px solid #000;
+    border-radius:  5px;
+    transition: 0.5s;
+    
+    
+
+}
+.b1container :hover {
+    width: 250px;
+    height: 250px;
+    
+}
+.s2boxing {
+    width: 200px;
+    height: 200px;
+    border: 3px;
+    border-radius: 5px;
+    
+   
+   
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .section3{
       
    
