@@ -110,6 +110,7 @@ button:hover{
    
     flex-direction: row;
     background-color:white;
+    padding-bottom: 100px;
 }
 .section2-text1 {
     align-items: center;
@@ -132,23 +133,21 @@ button:hover{
     margin-top: 70px;
     
     background-color: #1f2937;
-    border: 3px solid #000;
-    border-radius:  5px;
+    border: 3px solid #1f2937;
+    border-radius:  25px;
     transition: 0.5s;
     
     
 
 }
-.b1container :hover {
+/*.b1container :hover {
     width: 250px;
-    height: 250px;
-    
-}
+    h*/
 .s2boxing {
     width: 200px;
     height: 200px;
     border: 3px;
-    border-radius: 5px;
+    border-radius: 25px;
     
    
    
@@ -201,6 +200,7 @@ button:hover{
     display: flex;
     padding: 40px;
     justify-content: center;
+    
 }
 .section4 {
     display: flex;
@@ -221,12 +221,22 @@ button:hover{
     color: #f9faf8;
     margin: 50px;
     padding: left 50px;
+    margin-left: 50px;
+    background-color: #3882F6;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 5px;
+    border: solid #f9faf8;
 
 }
 .section4-text2 {
     color: #E5E7EB;
     margin-top: 70px;
+    margin-right: 200px;
     
+}
+.section4-button {
+    margin-right: 40px;
 }
 
 footer {
