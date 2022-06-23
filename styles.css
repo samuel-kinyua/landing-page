@@ -1,7 +1,7 @@
 
 .section1 {
     
-    flex: 50px;
+    
     background-color: #1f2937;
     justify-content: space-between;
     
@@ -25,8 +25,8 @@ header {
 .header-links {
     
     
-    margin-left: auto;
-    flex: 50px;
+    margin-left:auto;
+    
     
     
     
@@ -117,7 +117,6 @@ button:hover{
     font:  #1f2937;
     font-weight: 700;
     font-size: 36px;
-    padding-top: 20px;
 }
 .s2h3 {
     display: flex;
@@ -199,7 +198,7 @@ button:hover{
 .section4-box{
     background-color: white;
     display: flex;
-    padding: 70px 50px ;
+    padding: 50px 70px;
     justify-content: center;
    
     
