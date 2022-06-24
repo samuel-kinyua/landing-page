@@ -1,7 +1,7 @@
 
 .section1 {
     
-    
+    flex-wrap: wrap;
     background-color: #1f2937;
     justify-content: space-between;
     
@@ -14,6 +14,7 @@ header {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 15px;
+    
 
 }
 .header-logo {
@@ -21,10 +22,11 @@ header {
     font-weight: 700;
     font-size: 24PX;
     color: #f9faf8;
+    flex-wrap: wrap;
 }
 .header-links {
     
-    
+    flex-wrap: wrap;
     margin-left:auto;
     
     
@@ -51,6 +53,9 @@ header {
 
 .section1-text {
     padding-left: 50px;
+    flex-wrap: wrap;
+
+
 }
 .section1-text1 {
     color: #f9faf8;
@@ -60,6 +65,7 @@ header {
     height: 50px;
     padding-left: 100px;
     padding-top: 70px;
+    flex-wrap: wrap;
   
 }
 .section1-text2 {
@@ -69,6 +75,7 @@ header {
     height: 10px;
     padding-left: 100px;
     padding-top: 50px;
+    flex-wrap: wrap;
   
 }
 .section1-image {
@@ -76,17 +83,20 @@ header {
     margin-top: 50px;
     margin-right: 100px;
     margin-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .mid-part {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 } 
 
 .section1-button {
     margin-top: 40px;
     margin-left: 100px;
+    
     
 }
 button {
@@ -111,16 +121,20 @@ button:hover{
     flex-direction: row;
     background-color:white;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 .section2-text1 {
     align-items: center;
     font:  #1f2937;
     font-weight: 700;
     font-size: 36px;
+    
 }
 .s2h3 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
    
     
 }
@@ -138,6 +152,7 @@ button:hover{
     transition: 0.5s;
     
     
+    
 
 }
 /*.b1container :hover {
@@ -148,23 +163,27 @@ button:hover{
     height: 200px;
     border: 3px;
     border-radius: 25px;
+    flex-wrap: wrap;
     
    
    
 }
 .boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .section3{
     display: flex;
+    flex-wrap: wrap;
     
    justify-content: center;
     background-color: #E5E7EB;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .section4{
     display: flex;
     flex-direction: row;
@@ -173,6 +192,7 @@ button:hover{
 .section4-text {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
    
 
 }
@@ -182,12 +202,13 @@ button:hover{
     width: 850px;
     height: 40px;
     text-align: start;
+    flex-wrap: wrap;
 
 }
 .section3-text2 {
     font-size: 26px;
     margin: 60px;
-    
+    flex-wrap: wrap;
     padding-left: 170px;
     float: right;
    
@@ -199,8 +220,9 @@ button:hover{
     background-color: white;
     display: flex;
     padding: 50px 70px;
-    justify-content: center;
-   
+    justify-content: center; 
+    flex-wrap: wrap;
+
     
 }
 .section4 {
@@ -208,12 +230,13 @@ button:hover{
     flex-direction: row;
    border-radius: 15px;
    align-items: center;
-   
+   flex-wrap: wrap;
     background-color: #3882F6;
 }
 .section4-text{
     display: flex;
     justify-content: center;
+
     
 
 
@@ -234,7 +257,7 @@ button:hover{
     color: #E5E7EB;
     margin-top: 70px;
     margin-right: 200px;
-    
+    flex-wrap: wrap;
 }
 .section4-button {
     margin-right: 40px;
